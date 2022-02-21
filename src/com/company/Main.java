@@ -12,7 +12,8 @@ public class Main {
         //PasswordTest.passwordTest(scanner);
         //Linjeberegner.linjeberegner(scanner);
         //Bmi.bmi(scanner);
-
+        int sum = sum(scanner.nextInt(), scanner.nextInt());
+        System.out.println(sum);
         /*for (int i = 1; i < 10; i++) {
             System.out.format("%d miles : %.3f km\n\r",i,Converter.milesToKilometers(i));
         }
@@ -20,4 +21,9 @@ public class Main {
 
 
     }
+
+    private static int sum (int a, int b){
+        return a+b;
+    }
+
 }
