@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 public class Point {
     private int x;
@@ -16,4 +16,10 @@ public class Point {
     public boolean equals(Point other){
         return (this.toString().equals(other.toString()));
     }
+
+    public void move(int dx, int dy){
+        this.x += dx;
+        this.y += dy;
+    }
 }
+

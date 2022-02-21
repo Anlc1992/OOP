@@ -7,9 +7,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Point point1 = new Point(scanner.nextInt(), scanner.nextInt());
-        Point point2 = new Point(scanner.nextInt(), scanner.nextInt());
-
         //Andengradsligning.roots(scanner);
         //DistanceFromLineToPoint.distanceFromLineToPoint(scanner);
         //PasswordTest.passwordTest(scanner);
