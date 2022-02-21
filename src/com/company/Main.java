@@ -7,13 +7,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        Point point1 = new Point(scanner.nextInt(), scanner.nextInt());
+        Point point2 = new Point(scanner.nextInt(), scanner.nextInt());
+
         //Andengradsligning.roots(scanner);
         //DistanceFromLineToPoint.distanceFromLineToPoint(scanner);
         //PasswordTest.passwordTest(scanner);
         //Linjeberegner.linjeberegner(scanner);
         //Bmi.bmi(scanner);
-        int sum = sum(scanner.nextInt(), scanner.nextInt());
-        System.out.println(sum);
         /*for (int i = 1; i < 10; i++) {
             System.out.format("%d miles : %.3f km\n\r",i,Converter.milesToKilometers(i));
         }
@@ -21,9 +22,4 @@ public class Main {
 
 
     }
-
-    private static int sum (int a, int b){
-        return a+b;
-    }
-
 }
